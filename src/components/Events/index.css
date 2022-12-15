@@ -1,0 +1,63 @@
+.home-page-container {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-events-container {
+  height: 100vh;
+  width: 65vw;
+  background-color: #323f4b;
+  overflow-y: auto;
+}
+
+.events-heading {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.all-event-cards-list-container {
+  list-style: none;
+  padding-left: 0;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event-card-container {
+  width: 44%;
+  margin-bottom: 35px;
+}
+
+.event-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.event-location {
+  color: #f8fafc;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.each-event-full-details-display-container {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

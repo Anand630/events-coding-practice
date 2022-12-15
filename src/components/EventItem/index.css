@@ -1,0 +1,27 @@
+.event-image-button-off {
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.event-image-button-on {
+  border: 1.5px solid #2dd4bf;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.event-image {
+  width: 250px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .event-image {
+    width: 200px;
+    margin-bottom: 0;
+  }
+}
